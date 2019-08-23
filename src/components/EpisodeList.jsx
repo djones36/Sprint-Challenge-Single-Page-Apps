@@ -3,10 +3,10 @@ import axios from "axios";
 import EpisodeCard from "./EpisodeCard"; 
 
 export default function EpisodeList() {
-    const [episodeState, SetEpisode] = useState({})
+    const [episodeState, SetEpisode] = useState([])
     useEffect(() => {
       axios
-    //   .get("https://rickandmortyapi.com/api/episode/")
+      .get("https://rickandmortyapi.com/api/episode/")
       .then(res => {
         console.log(res.data.results);
         SetEpisode(res.data.results);
