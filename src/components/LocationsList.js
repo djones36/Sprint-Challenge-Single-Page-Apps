@@ -9,7 +9,7 @@ export default function LocationsList() {
       .get("https://rickandmortyapi.com/api/location/")
       .then(res => {
         console.log(res.data.results);
-        SetCharacter(res.data.results);
+        SetLocation(res.data.results);
       })
       .catch(err => console.log(err.response));
     }, []);
