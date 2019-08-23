@@ -6,7 +6,7 @@ export default function EpisodeList() {
     const [episodeState, SetEpisode] = useState({})
     useEffect(() => {
       axios
-      .get("https://rickandmortyapi.com/api/location/")
+    //   .get("https://rickandmortyapi.com/api/episode/")
       .then(res => {
         console.log(res.data.results);
         SetEpisode(res.data.results);

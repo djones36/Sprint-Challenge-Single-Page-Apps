@@ -6,7 +6,7 @@ export default function LocationsList() {
     const [locationState, SetLocation] = useState({})
     useEffect(() => {
       axios
-      .get("https://rickandmortyapi.com/api/location/")
+    //   .get("https://rickandmortyapi.com/api/location/")
       .then(res => {
         console.log(res.data.results);
         SetLocation(res.data.results);
