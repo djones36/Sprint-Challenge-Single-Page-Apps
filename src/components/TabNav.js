@@ -11,9 +11,10 @@ import { NavLink } from "react-router-dom";
 // };
 
 const panes = [
-    { menuItem: 'Tab 1', render: () => <Tab.Pane>Tab 1 Content</Tab.Pane> },
-    { menuItem: 'Tab 2', render: () => <Tab.Pane>Tab 2 Content</Tab.Pane> },
-    { menuItem: 'Tab 3', render: () => <Tab.Pane>Tab 3 Content</Tab.Pane> },
+    { menuItem: 'Home', render: () => <Tab.Pane>Home</Tab.Pane> },
+    { menuItem: 'Characters', render: () => <Tab.Pane>Characters</Tab.Pane> },
+    { menuItem: 'Location', render: () => <Tab.Pane>Location</Tab.Pane> },
+    { menuItem: 'Episode', render: () => <Tab.Pane>Episode</Tab.Pane> },
   ]
   
   const TabNav = () => <Tab panes={panes} />
