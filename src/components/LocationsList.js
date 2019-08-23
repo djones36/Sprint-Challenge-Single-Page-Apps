@@ -20,7 +20,7 @@ export default function LocationsList() {
       <section className="location-list grid-view">
         {locationState.map((loc) => {
           return(
-            <LocationCard key={char.id} loc={loc} />
+            <LocationCard key={loc.id} loc={loc} />
           )
         })}
       </section>

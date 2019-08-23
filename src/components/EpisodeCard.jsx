@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Icon, Image } from 'semantic-ui-react';
 
-export default function EpisodeCard({loc}) {
+export default function EpisodeCard({epi}) {
   return(
     <Card>
     <Card.Content>

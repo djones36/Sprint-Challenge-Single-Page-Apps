@@ -13,12 +13,6 @@ export default function CharacterCard({char}) {
         {char.location.name}
       </Card.Description>
     </Card.Content>
-    <Card.Content extra>
-      <a>
-        <Icon name='user' />
-        e
-      </a>
-    </Card.Content>
   </Card>
   )
 }
