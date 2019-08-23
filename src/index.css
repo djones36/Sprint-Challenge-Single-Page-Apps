@@ -37,3 +37,13 @@ main {
 header h1 {
   text-align: center;
 }
+nav{
+  display: flex;
+  justify-content: space-around;
+  margin: 2%;
+}
+.nav-active{
+  border: 1px  solid grey;
+  font-style: bold;
+  color: red;
+}
