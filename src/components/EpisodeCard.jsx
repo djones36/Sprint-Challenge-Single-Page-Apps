@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Icon, Image } from 'semantic-ui-react';
 
-export default function CharacterCard({}) {
+export default function EpisodeCard({}) {
   return(
     <Card>
     <Image src='https://react.semantic-ui.com/images/avatar/large/daniel.jpg' wrapped ui={false} />
@@ -21,4 +21,3 @@ export default function CharacterCard({}) {
   </Card>
   )
 }
-
